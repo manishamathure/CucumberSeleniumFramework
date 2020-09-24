@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.105295">
+    <testcase classname="RTW create new account Feature" name="RTW create new account Feature Test Scenario" time="18.105295">
+        <system-out><![CDATA[Given open the site and launch the application..............................passed
+Then user click on cookies navbar...........................................passed
+Then user is on login page click on create new account link.................passed
+Then please enter "TestAutomationn" and "TestAutomationn" and "ttestautomation@gmail.com" and "Test@12345" and "Test@12345".passed
+Then select radio button option which describes you.........................passed
+Then click on create account button.........................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

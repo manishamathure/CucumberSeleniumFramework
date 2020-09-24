@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "RTW create new account Feature Test Scenario",
+        "description": "",
+        "id": "rtw-create-new-account-feature;rtw-create-new-account-feature-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8089702700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the site and launch the application",
+            "match": {
+              "location": "accountcreation.open_the_site_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4493146900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on cookies navbar",
+            "match": {
+              "location": "accountcreation.user_click_on_cookies_navbar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103442800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page click on create new account link",
+            "match": {
+              "location": "accountcreation.user_is_on_login_page_click_on_create_new_account_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 801765600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "please enter \"TestAutomationn\" and \"TestAutomationn\" and \"ttestautomation@gmail.com\" and \"Test@12345\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestAutomationn",
+                  "offset": 14
+                },
+                {
+                  "val": "TestAutomationn",
+                  "offset": 36
+                },
+                {
+                  "val": "ttestautomation@gmail.com",
+                  "offset": 58
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 90
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 107
+                }
+              ],
+              "location": "accountcreation.please_enter_first_name_and_last_name_and_email_and_password_and_confirm_password(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81684600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select radio button option which describes you",
+            "match": {
+              "location": "accountcreation.select_radio_button_option_which_describes_you()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82843100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on create account button",
+            "match": {
+              "location": "accountcreation.click_on_create_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4452709000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "accountcreation.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "RTW create new account Feature",
+    "description": "",
+    "id": "rtw-create-new-account-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Balram/eclipse-workspace/CucumberFrameworkForRTW/src/main/java/Features/accountcreation.feature"
+  }
+]
